@@ -1,0 +1,113 @@
+.background {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.modal {
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 80vw;
+  min-width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal form {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  padding: 36px 100px 20px;
+}
+
+.id {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cfd9de;
+  border-radius: 5px;
+  padding: 8px 8px 0;
+  color: #536471;
+  font-size: 13px;
+  margin: 12px 0;
+  height: 56px;
+}
+
+.id input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.pw {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cfd9de;
+  border-radius: 5px;
+  padding: 8px 8px 0;
+  color: #536471;
+  font-size: 13px;
+  margin: 12px 0;
+  height: 56px;
+}
+
+.pw input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.closeButton {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+}
+
+.body {
+  flex: 1;
+}
+
+.footer {
+  padding: 24px 0;
+}
+
+.loginButton {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(15, 20, 25);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+}
+
+.loginButton:disabled {
+  opacity: 0.5;
+}
+
+.loginButton:hover {
+  background-color: rgb(39, 44, 48);
+}
